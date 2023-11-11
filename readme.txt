@@ -25,6 +25,8 @@ wget -O weewx-mqtt.zip https://github.com/matthewwall/weewx-mqtt/archive/master.
 2) run the installer:
 
 wee_extension --install weewx-mqtt.zip
+OR if in root of cloned repo ie where install.py: 
+wee_extension --install .
 
 3) modify weewx.conf:
 
